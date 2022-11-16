@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+    z-index: -1;
+    background-color: #fff1ce;
+    overflow-x: hidden;
+}
+
+/*NAVBAR*/
+
+.logosenac{
+    position: absolute;
+    top: 3%;
+    max-height: 40px;
+    left: 35px;
+  }
+
+nav {
+    background-color: #483D8B	;
+    text-align: center;
+    animation: flow 30s ease-in-out infinite;
+  background: radial-gradient(circle,#B689A4,#712954,#570F3A,#410B2C);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: padding-box;
+  -webkit-text-fill-color: white;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li {
+    width: 120px;
+    margin: 10px;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sub-menu-contatos {
+    display: none;
+}
+
+nav ul li:hover .sub-menu-contatos {
+    display: block;
+    position: absolute;
+    background-color: #483D8B;
+    margin-top: 15px;
+    margin-left: -38px;
+    transition: 1s all;
+      animation: flow 30s ease-in-out infinite;
+  background: radial-gradient(circle,#B689A4,#712954,#570F3A,#410B2C);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: padding-box;
+  -webkit-text-fill-color: white;
+   backdrop-filter: blur(30px);
+    
+
+}
+
+nav ul li:hover .sub-menu-contatos ul {
+    display: block;
+    transition: 1s all;
+}
+
+nav ul li:hover .sub-menu-contatos ul li {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition:1s all;
+    
+}
+
+nav ul li:hover .sub-menu-contatos ul li:hover {
+    background-color: #663399	;
+    transition: 1s all;
+}
+
+/*NAVBAR FIM*/
+
+h1{
+    text-align: center;
+    font-style: italic ;
+    font-size: 40px;
+    margin-top: 30px;
+    right: 480px;
+}
+
+.foto{
+    position: absolute;
+    right: 420px ;
+    top: 200px;
+    height: 400px;
+    width: 500px;
+}
+
+h2{
+    position: absolute;
+    font-style: italic;
+    font-size: 30px;
+    margin: 20px ;
+    color: #483D8B;
+}
+
+.capilar{
+    top: 650px;
+    left: 100px;
+}
+
+.nomes-capilar{
+    position: relative;
+    display: list-item;
+    margin-top: 2px;
+    height: 30px;
+    top: 590px;
+    left: 630px;
+}
+
+.facial{
+    top: 650px;
+    right: 570px;
+}
+
+.nomes-facial{
+    position: relative;
+    display: list-item;
+    margin-top: 2px;
+    height: 30px;
+    top: 145px;
+    left: 110px;
+}
+
+.corporal{
+    top: 650px;
+    right: 100px;
+}
+
+.nomes-corporal{
+    position: relative;
+    display: list-item;
+    margin-top: 2px;
+    height: 30px;
+    top: -210px;
+    right: -1070px;
+}
+
+button {
+    position: absolute;
+    padding: 15px 55px;
+    top: 1200px;
+    right: 520px;
+    text-align: center;
+    background-color: #fff1ce;
+    text-decoration: none;
+    color: #21203f;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    border-radius: 16px;
+    background-color: #483D8B;
+    color: white;
+    cursor: pointer;
+}
